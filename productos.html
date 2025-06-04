@@ -4,82 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos - Corazon Morado</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+        <title>Corazon Morado</title>
+    </head>
 <body>
     <header>
-        <table>
-            <tr>
-                <td>
-                    <img src="./img/logomate.jpg" width="25%" alt="logotipo">
-
-                </td>
-                <td>
-                    <h1>Corazon Morado</h1>
-
-                </td>
-            </tr>
-        </table>
-
-
-
-        <hr>
-        <h4>Los mates mas lindos están acá</h4>
-
-        <nav>
-            <ul>
-                <li><a href="./productos.html">Productos</a></li>
-                <li>Ofertas</li>
-                <li>Tienda</li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href=ubicacion.html>Ubicación</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
+        <div class="logo">
+         <img src="./img/logot.jpg" alt="logotipo mate" width="25%"> 
+ 
+     </div>
+         <div class="titulo">
+         <h1 class="h1">Corazon Morado</h1>
+         <h4>Los mates mas lindos están acá</h4>
+ 
+ 
+     </div>
+     
+     <nav>
+         <div class="nav">
+             <ul>
+                 <li><a href="./index.html"><i class="fa-solid fa-house"></i></a></li>
+                 <li><a href="./productos.html">Productos</a></li>
+                 <li>Ofertas</li>
+                 <li><a href="./contacto.html">Contacto</a></li>
+                 <li><a href=ubicacion.html>Ubicación</a></li>
+             </ul>
+             
+         </div>
+ 
+     </nav>
+     </header>
 
     <main>
-
-        <section>
-            <img src="./img/termonegro.JPG" width="22%" alt="termo negro">
-
-            <img src="https://d22fxaf9t8d39k.cloudfront.net/736501fac765452ef414fbd21340f75566c956b4b2d832fcd8c0ffbe364bde7b19762.jpeg"
-                width="22%" alt="mate negro">
-
-            <img src="https://d22fxaf9t8d39k.cloudfront.net/8402bf563c5451e2cfe30791904333e2308ab4fc2a44078af0394d102e0d58ea19762.jpeg"
-                width="22%" alt="mate marron">
-        </section>
-        <section>
-            <iframe width="440" height="315" src="https://www.youtube.com/embed/IHNZj2-pkIE?si=_RLQgsVUnNfrlxih"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
-        <section>
-            <video controls autoplay muted poster="preview.jpg" width="600" height="400">
-                <source src="./video/corazonroblox.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de video.
-                <track src="./video/corazonroblox.vtt" kind="subtitles" srclang="es" label="Español" default>
-              </video>
+        <div class="productos_mate">
+            <div class="mate_venta">
+                <h2>Mate Homero</h2>
+                <img src="./img/homero.jpg" 
+                width="30%" alt="homero" class="anim">
+                <button>Comprar</button>
+            </div>
             
-        </section>
 
-        <section>
-            <audio controls autoplay>
-            <source src="audio.mp3" type="audio/mpeg">
-            Tu navegador no soporta la reproducción de audio.
-          </audio>
-        </section>
-
-
-        <a href="https://www.todomatespalermo.com.ar/">Mateando</a>
+            <div class="mate_venta">
+                <h2>Mate Ranma 1/2</h2>
+                <img src="./img/ranma.jpg"
+                width="30%" alt="mate ranma">
+                <button>Comprar</button>
+            </div>
+              
+                
+            <div class="mate_venta">
+                <h2>Mate Simba</h2>
+                <img src="./img/simba.jpg"
+                width="30%" alt="mates simba">
+                <button>Comprar</button>
+            </div>
+                
+            
+        </div>
+            
+        
 
     </main>
 
     <a href="./index.html">Home</a>
     <hr>
-    <footer><p>Desarrollo: Lucas Centurion | <a href="mailto:lucajesusmatias@gmail.com"> Email: Lucajesusmatias@gmail.com</a></p></footer>
+    <footer>
+        <hr>
+        <p>Desarrollo: Lucas Centurion | <a href="mailto:lucajesusmatias@gmail.com"> Email: Lucajesusmatias@gmail.com</a></p>
+        <hr>
+
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+
+        
+        
+    </footer>
     <hr>
 
 </body>
