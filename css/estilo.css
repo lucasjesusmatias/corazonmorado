@@ -86,11 +86,6 @@ li{
     padding: 10px;
 }
 
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
 .productos_mate {
     display: flex;
